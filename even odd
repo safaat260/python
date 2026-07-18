@@ -1,0 +1,8 @@
+def even_odd(arr):
+    for i in arr:
+        if i % 2 ==0:
+            print(i, "is even")
+        else:
+            print(i, "is odd")
+arr = [1,2,3,4,5,6]
+even_odd(arr)    
