@@ -1,0 +1,8 @@
+def ascending(arr):
+    if arr == sorted(arr):
+        print("Sorted")
+    else:
+        print("Not Sorted")
+
+arr = [1, 2, 3, 4, 5]
+ascending(arr)
