@@ -1,0 +1,5 @@
+def reverse(text):
+    print(text[::-1])
+
+reverse("Hello World")
+
