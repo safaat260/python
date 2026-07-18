@@ -1,0 +1,7 @@
+def palindrome(arr):
+    for i in arr:
+        if str(i) == str(i)[::-1]:
+            print(i)
+
+arr = [121, 123, 454, 567, 99, 101]
+palindrome(arr)
