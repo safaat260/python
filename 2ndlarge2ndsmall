@@ -1,0 +1,8 @@
+def second_large_small(arr):
+    arr.sort()
+
+    print("Second Smallest =", arr[1])
+    print("Second Largest =", arr[-2])
+
+arr = [2, 4, 1, 6, 7, 4, 9]
+second_large_small(arr)
