@@ -1,0 +1,13 @@
+def sum_avg(arr):
+    total = 0
+
+    for i in arr:
+        total = total+i
+
+    avg = total / len(arr)
+
+    print("Sum =", total)
+    print("Average =", avg)
+
+arr = [10, 20, 30, 40, 50]
+sum_avg(arr)
