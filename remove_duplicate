@@ -1,0 +1,11 @@
+def remove_duplicate(arr):
+    new = []
+
+    for i in arr:
+        if i not in new:
+            new.append(i)
+
+    print(new)
+
+arr = [1, 2, 2, 3, 4, 3, 5]
+remove_duplicate(arr)
