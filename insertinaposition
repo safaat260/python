@@ -1,0 +1,7 @@
+def insert_element(arr, pos, value):
+    arr.insert(pos, value)
+    print(arr)
+
+arr = [1, 2, 3, 4, 5]
+
+insert_element(arr, 2, 10)
